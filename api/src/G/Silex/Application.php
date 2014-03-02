@@ -13,7 +13,7 @@ class Application extends SilexApplication
     {
         parent::__construct($values);
 
-        LoginBuilder::mountRouteIntoApplication('/auth', $this);
+        LoginBuilder::mountProviderIntoApplication('/auth', $this);
 
         $this->after(function (Request $request, Response $response) {
             $response->headers->set('Access-Control-Allow-Origin', '*');
