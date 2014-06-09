@@ -1,0 +1,21 @@
+{
+  "name": "gonzalo123/token",
+  "version": "0.0.0",
+  "homepage": "https://github.com/gonzalo123/token",
+  "authors": [
+    "Gonzalo Ayuso <gonzalo123@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.2.16",
+    "angular": "~1.2.16",
+    "topcoat": "~0.8.0"
+  }
+}

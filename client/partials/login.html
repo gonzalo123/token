@@ -1,0 +1,24 @@
+<div class="topcoat-navigation-bar">
+    <div class="topcoat-navigation-bar__item center full">
+        <h1 class="topcoat-navigation-bar__title">Login</h1>
+    </div>
+</div>
+
+<ul class="topcoat-list__container">
+    <li class="topcoat-list__item center">
+        <input ng-model="user.username" class="topcoat-text-input--large" type="text" name="user"
+               placeholder="Username"/>
+    </li>
+    <li class="topcoat-list__item center">
+        <input ng-model="user.password" class="topcoat-text-input--large" type="password" name="pass"
+               placeholder="Password"/>
+    </li>
+</ul>
+
+<div class="topcoat-button-bar full" style="position: fixed; bottom: 0px;">
+    <label class="topcoat-button-bar__item">
+        <button class="topcoat-button--cta full" ng-click="doLogIn()">
+            <span class="">Login</span>
+        </button>
+    </label>
+</div>
